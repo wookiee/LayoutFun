@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6068C101B8CF9770018FE07 /* SpaceFillingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6068C0F1B8CF9770018FE07 /* SpaceFillingFlowLayout.swift */; };
+		A6068C531B9208AD0018FE07 /* FlipLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6068C521B9208AD0018FE07 /* FlipLayout.swift */; };
+		A68E27661B8CDFB600B840C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E27651B8CDFB600B840C4 /* AppDelegate.swift */; };
+		A68E27681B8CDFB600B840C4 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E27671B8CDFB600B840C4 /* PhotosViewController.swift */; };
+		A68E276B1B8CDFB600B840C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68E27691B8CDFB600B840C4 /* Main.storyboard */; };
+		A68E276D1B8CDFB600B840C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68E276C1B8CDFB600B840C4 /* Assets.xcassets */; };
+		A68E27701B8CDFB600B840C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68E276E1B8CDFB600B840C4 /* LaunchScreen.storyboard */; };
+		A6B836F81B9775E0005B9ED8 /* AnchorableAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B836F71B9775E0005B9ED8 /* AnchorableAttributes.swift */; };
+		A6B836FC1B977FDB005B9ED8 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B836FB1B977FDB005B9ED8 /* PhotoCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6068C0F1B8CF9770018FE07 /* SpaceFillingFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceFillingFlowLayout.swift; sourceTree = "<group>"; };
+		A6068C521B9208AD0018FE07 /* FlipLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipLayout.swift; sourceTree = "<group>"; };
+		A68E27621B8CDFB600B840C4 /* Photodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68E27651B8CDFB600B840C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A68E27671B8CDFB600B840C4 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A68E276A1B8CDFB600B840C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A68E276C1B8CDFB600B840C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A68E276F1B8CDFB600B840C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A68E27711B8CDFB600B840C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B836F71B9775E0005B9ED8 /* AnchorableAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorableAttributes.swift; sourceTree = "<group>"; };
+		A6B836FB1B977FDB005B9ED8 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68E275F1B8CDFB600B840C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A68E27591B8CDFB600B840C4 = {
+			isa = PBXGroup;
+			children = (
+				A68E27641B8CDFB600B840C4 /* Photodex */,
+				A68E27631B8CDFB600B840C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68E27631B8CDFB600B840C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68E27621B8CDFB600B840C4 /* Photodex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68E27641B8CDFB600B840C4 /* Photodex */ = {
+			isa = PBXGroup;
+			children = (
+				A68E27651B8CDFB600B840C4 /* AppDelegate.swift */,
+				A68E27671B8CDFB600B840C4 /* PhotosViewController.swift */,
+				A6068C0F1B8CF9770018FE07 /* SpaceFillingFlowLayout.swift */,
+				A6B836F71B9775E0005B9ED8 /* AnchorableAttributes.swift */,
+				A6B836FB1B977FDB005B9ED8 /* PhotoCell.swift */,
+				A6068C521B9208AD0018FE07 /* FlipLayout.swift */,
+				A68E27691B8CDFB600B840C4 /* Main.storyboard */,
+				A68E276C1B8CDFB600B840C4 /* Assets.xcassets */,
+				A68E276E1B8CDFB600B840C4 /* LaunchScreen.storyboard */,
+				A68E27711B8CDFB600B840C4 /* Info.plist */,
+			);
+			path = Photodex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68E27611B8CDFB600B840C4 /* Photodex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68E278A1B8CDFB700B840C4 /* Build configuration list for PBXNativeTarget "Photodex" */;
+			buildPhases = (
+				A68E275E1B8CDFB600B840C4 /* Sources */,
+				A68E275F1B8CDFB600B840C4 /* Frameworks */,
+				A68E27601B8CDFB600B840C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photodex;
+			productName = Photodex;
+			productReference = A68E27621B8CDFB600B840C4 /* Photodex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A68E275A1B8CDFB600B840C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					A68E27611B8CDFB600B840C4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A68E275D1B8CDFB600B840C4 /* Build configuration list for PBXProject "Photodex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A68E27591B8CDFB600B840C4;
+			productRefGroup = A68E27631B8CDFB600B840C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68E27611B8CDFB600B840C4 /* Photodex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68E27601B8CDFB600B840C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68E27701B8CDFB600B840C4 /* LaunchScreen.storyboard in Resources */,
+				A68E276D1B8CDFB600B840C4 /* Assets.xcassets in Resources */,
+				A68E276B1B8CDFB600B840C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68E275E1B8CDFB600B840C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B836FC1B977FDB005B9ED8 /* PhotoCell.swift in Sources */,
+				A68E27681B8CDFB600B840C4 /* PhotosViewController.swift in Sources */,
+				A6068C531B9208AD0018FE07 /* FlipLayout.swift in Sources */,
+				A6B836F81B9775E0005B9ED8 /* AnchorableAttributes.swift in Sources */,
+				A68E27661B8CDFB600B840C4 /* AppDelegate.swift in Sources */,
+				A6068C101B8CF9770018FE07 /* SpaceFillingFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A68E27691B8CDFB600B840C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68E276A1B8CDFB600B840C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A68E276E1B8CDFB600B840C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68E276F1B8CDFB600B840C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A68E27881B8CDFB700B840C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A68E27891B8CDFB700B840C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A68E278B1B8CDFB700B840C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = Photodex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.Photodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A68E278C1B8CDFB700B840C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = Photodex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.Photodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A68E275D1B8CDFB600B840C4 /* Build configuration list for PBXProject "Photodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68E27881B8CDFB700B840C4 /* Debug */,
+				A68E27891B8CDFB700B840C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68E278A1B8CDFB700B840C4 /* Build configuration list for PBXNativeTarget "Photodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68E278B1B8CDFB700B840C4 /* Debug */,
+				A68E278C1B8CDFB700B840C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A68E275A1B8CDFB600B840C4 /* Project object */;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="15B38b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wwe-zE-V5W">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+    </dependencies>
+    <scenes>
+        <!--Photos-->
+        <scene sceneID="RL2-df-aCv">
+            <objects>
+                <collectionViewController id="AEu-s6-WwM" customClass="PhotosViewController" customModule="Photodex" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="zJd-Rx-jre">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <collectionViewLayout key="collectionViewLayout" id="Pku-I6-LJ5" customClass="SpaceFillingFlowLayout" customModule="Photodex" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="size" keyPath="minCellSize">
+                                    <size key="value" width="30" height="30"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cellSpacing">
+                                    <real key="value" value="30"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </collectionViewLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="CJh-jk-JrY" customClass="PhotoCell" customModule="Photodex" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bnr_hat" translatesAutoresizingMaskIntoConstraints="NO" id="5cl-yI-aJF">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <animations/>
+                                        </imageView>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5cl-yI-aJF" secondAttribute="bottom" id="Avz-ZG-XFm"/>
+                                    <constraint firstItem="5cl-yI-aJF" firstAttribute="leading" secondItem="CJh-jk-JrY" secondAttribute="leading" id="FTO-Z5-IaD"/>
+                                    <constraint firstAttribute="trailing" secondItem="5cl-yI-aJF" secondAttribute="trailing" id="UFZ-fu-ezH"/>
+                                    <constraint firstItem="5cl-yI-aJF" firstAttribute="top" secondItem="CJh-jk-JrY" secondAttribute="top" id="gKy-RK-tMR"/>
+                                </constraints>
+                                <size key="customSize" width="128" height="128"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="AEu-s6-WwM" id="d8E-jG-iNl"/>
+                            <outlet property="delegate" destination="AEu-s6-WwM" id="gx1-c6-X9K"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Photos" id="DY3-lW-mQb"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O7u-AC-AAa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1222" y="408"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7Ub-XS-1ce">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wwe-zE-V5W" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J9i-yk-fYw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AEu-s6-WwM" kind="relationship" relationship="rootViewController" id="vZm-1N-3uq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fus-08-VqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="471" y="432"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bnr_hat" width="256" height="256"/>
+    </resources>
+</document>
